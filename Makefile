@@ -40,7 +40,7 @@ INSTALL_FLAG_PREFIX := +
 
 # ROOT_D, Root of the system
 # ROOT_D := $(shell echo $$HOME)/y
-ROOT_D := root
+ROOT_D := $(PWD)/root
 
 # One of ``, `.x86_64` or `.i686`
 ARCH := 
